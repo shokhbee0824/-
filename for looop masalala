@@ -1,0 +1,140 @@
+# print("1 dan 100 gacha tub sonlar:")
+# for son in range(2, 101):
+#     tub = True
+#     for i in range(2, son):
+#         if son % i == 0:
+#             tub = False
+#             break
+#     if tub:
+#         print(son, end=" ")
+# 2-masala
+# for i in range (1, 11 ):
+#     print(i, end=" ")
+# ---------------------------
+# for i in ("Python"):
+#     print(i)
+# ------------------------------------------
+# talabalar= [ "akbar","sanobar","holida","birav","palonkas"]
+# for i in range (len(talabalar)):
+#     print(f"{i + 1 }: {talabalar[i]}")
+#
+# --------------------------------------------------------------------
+
+# ozim yazganim
+# for i in range (1, 11):
+#     print("1 dan 10 gacha sonlar")
+#     print(i)
+# 2-m
+# print("Dostlarim : ")
+# ismlar = ["Ali", "Vali", "Hasan", "Malika", "Zuhra"]
+# for i in ismlar:
+#     print(f"Salom: {i}")
+# 3-m
+# print("1 Dan 100 gacha juft sonlar")
+# for i in range (1,101):
+#     if i % 2 == 0 :
+#         print(i)
+# 4-m
+# i = 0
+# for son in range(1, 51):
+#     i += son
+# print("1 dan 50 gacha sonlar yig'indisi =", i)
+# 5-m
+# matn=input("matn kiriting : ")
+# qiymat = 0
+# for i in matn:
+#     qiymat += 1
+# print("uzunligi",qiymat)
+# 6-m
+# print("1 dan 50 gacha 3 ga bolinadigan sonlar :")
+# ozgaruv= 0
+# for i in range (1 , 51):
+#     if i % 3 == 0:
+#         ozgaruv += 1
+#         print(i, end=" ")
+# print(f"Jami {ozgaruv},ta son ")
+# 7-m
+# matn = input("Matn kiriting: ")
+# unlilar = "aeiouаеёиоуыэюя"
+# soni = 0
+# for belgi in matn.lower():
+#     if belgi in unlilar:
+#         soni += 1
+# print("Jami unli harflar:", soni, "ta")
+# 8-m
+# sonlar = [23, 67, 12, 89, 45, 34, 91, 56, 78]
+# katta = sonlar[0]
+# for son in sonlar:
+#     if son > katta:
+#         katta = son
+# print("Listdagi eng katta son:", katta)
+# 9-m
+# n = input("son kiriting = ")
+# yigindi = 0
+# for raqam in n :
+#     if raqam.isdigit():
+#         yigindi = yigindi + int(raqam)
+# print(f"{n} raqamlar yigindisi : { yigindi }")
+# 10-m
+# n = int(input("son kiriting = "))
+# fakt = 1
+# sum  = 0
+# for n in range(1, n+1):
+#     fakt  += 1
+#     sum = sum + fakt
+# print(sum)
+# 11-m
+# print("MULTIPLIKATSIYA JADVALI")
+# print("=" * 60)
+# print("    ", end="")
+# for i in range(1, 11):
+#     print(f"{i:4}", end="")
+# print()
+# print("—" * 60)
+# for i in range(1, 11):
+#     print(f"{i:2} |", end="")
+#     for j in range(1, 11):
+#         print(f"{i*j:4}", end="")
+#     print()
+#
+# 12-masaala
+# n = int(input("Piramida balandligini kiriting = "))
+# print("⭐ YULDUZLI PIRAMIDA ⭐")
+#
+# for i in range(1, n + 1):
+#     print(" " * (n - i) + "⭐" * (2*i - 1))
+# 13-m
+# a, b = 0, 1
+# print("Fibonachchining birinchi 10 ta soni:")
+# for i in range(10):
+#     print(a, end=" ")
+#     a, b = b, a + b
+# 14-m
+# print("1 dan 100 gacha tub sonlar:")
+# primes = []
+# for son in range(2, 101):
+#     tub = True
+#     for d in range(2, son):
+#         if son % d == 0:
+#             tub = False
+#             break
+#     if tub:
+#         primes.append(son)
+# print(*primes)
+# print("Jami:", len(primes), "ta tub son")
+#
+# 15-m
+# print("RAQAMLI SOAT SIMULYATORI")
+# print("=" * 40)
+#
+# count = 0
+# for h in range(24):
+#     for m in range(60):
+#         for s in range(60):
+#             print(f"{h:02}:{m:02}:{s:02}")
+#             count += 1
+#
+# print("Jami:", count, "ta vaqt")
+
+
+
